@@ -102,11 +102,11 @@ document.getElementById('apple__pomeCode').addEventListener('click', function() 
 
     let pomoValue = pomoInput.value;
 
-    if (pomoValue = 'stevekaku') {
+    if (pomoValue == 'stevekaku') {
         let totalPrices = total * 0.2;
         let pomomainTotal = total - totalPrices;
 
-        let total23 = document.getElementById('pomo_total').innerText = pomomainTotal;
+        document.getElementById('pomo_total').innerText = pomomainTotal;
     }
 
 
