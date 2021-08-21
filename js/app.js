@@ -95,7 +95,7 @@ document.getElementById('DeliveryCharge21').addEventListener('click', function()
 
 document.getElementById('apple__pomeCode').addEventListener('click', function() {
 
-    let total = document.getElementById('pomo_total').innerText;
+    let total = document.getElementById('total_price').innerText;
 
 
     let pomoInput = document.getElementById('inputValue');
